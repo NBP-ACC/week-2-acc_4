@@ -50,11 +50,14 @@ BG_COLOR = (123,123,123)
 FONTSIZE = 60
 # Set number of trials in the experiment
 # How should you name the variable?
-# TODO
+# Use the same name as in main
+NUMTRIAL = 120
 
 # Set number of nogo trials in the experiment
 # How should you name the variable?
-# TODO
+# The NoGo trials are used as a percentage in the main file
+# Therefore it has to be 1/6 to get 20 NoGo Trials in 120 Trials
+PCT_NOGO = 1/6
 
 # Set the time interval in seconds of the delay
 # from end of trial n and beginning of trial n+1
@@ -70,4 +73,13 @@ FPS = 60
 # Create a directory called 'Data' in your working-directory
 # where the experiment data for each subject is saved
 # before creating it check if the directory 'Data' already exists
-# TODO
+# define where to save the data
+dirName = "C:/Users/Sophia/Documents/GitHub/week-2-acc_4/Data"
+# check whether the folder Data allready exists
+# if no than create it
+if not os.path.exists(dirName):
+    os.mkdir(dirName)
+    print("Directory " , dirName ,  " Created ")
+# if yes print a message to let me know
+else:
+    print("Directory " , dirName ,  " already exists")
