@@ -51,13 +51,13 @@ FONTSIZE = 60
 # Set number of trials in the experiment
 # How should you name the variable?
 # Use the same name as in main
-NUMTRIAL = 120
+NUMTRIAL = 100
 
 # Set number of nogo trials in the experiment
 # How should you name the variable?
 # The NoGo trials are used as a percentage in the main file
 # Therefore it has to be 1/6 to get 20 NoGo Trials in 120 Trials
-PCT_NOGO = 1/6
+PCT_NOGO = 0.2
 
 # Set the time interval in seconds of the delay
 # from end of trial n and beginning of trial n+1
