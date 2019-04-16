@@ -56,7 +56,7 @@ NUMTRIAL = 100
 # Set number of nogo trials in the experiment
 # How should you name the variable?
 # The NoGo trials are used as a percentage in the main file
-# Therefore it has to be 1/6 to get 20 NoGo Trials in 120 Trials
+# Therefore it has to be 1/5 to get 20 NoGo Trials in 100 Trials
 PCT_NOGO = 0.2
 
 # Set the time interval in seconds of the delay
