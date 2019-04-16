@@ -16,7 +16,7 @@ Additionally, you can get **2 points** for good coding style.
 
 ### Go/no-go Task
 
-In a go/no-go task the participant is required to react to a “go” stimulus and refrain from reacting given a “no-go” signal. Measuring the response an the reaction time, in psychology this experiment paradigm is often used to evaluate impulsiveness and sustained attention.
+In a go/no-go task the participant is required to react to a “go” stimulus and refrain from reacting given a “no-go” signal. Measuring the response and the reaction time, in psychology this experiment paradigm is often used to evaluate impulsiveness and sustained attention.
 
 In the following you will find a visualization of how the experiment should look like, once you successfully completed the code:
 
