@@ -83,7 +83,6 @@ def writeData(datalist, subID):
     #of 'week-2-acc_4'
     df.to_csv(Path(PATH, 'Data/'+subID+'.csv'), index=False, header=True)
 
-
 ##______________________main experiment loop___________________________________
     
 def experiment(subID):
@@ -139,7 +138,7 @@ def experiment(subID):
                                 stop = pg.time.get_ticks()
                                 RT = stop - start# TODO
                                 response = 1# TODO
-
+                                
                 fill_background()# clear the screen
                 pg.display.flip()
                 pg.time.wait(TRIALINTERVAL)

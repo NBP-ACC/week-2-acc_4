@@ -57,6 +57,7 @@ NUMTRIAL = 100 #given number of total trials
 # How should you name the variable?
 # TODO
 PCT_NOGO = 0.20 #20% of the total trials = 20
+# Use the same name as in main
 
 # Set the time interval in seconds of the delay
 # from end of trial n and beginning of trial n+1
